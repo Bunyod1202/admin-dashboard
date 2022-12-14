@@ -1,0 +1,17 @@
+/* mulish-regular - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../../assets/fonts/mulish-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../../assets/fonts/mulish-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif;
+  margin: 0;
+  padding: 0;
+}
