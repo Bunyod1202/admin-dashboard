@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+
+.menu-item {
+  padding: 20px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 3px solid transparent;
+}
+
+.item-active {
+  background-color: rgba(159, 162, 180, 0.8);
+  border-left: 3px solid #DDE2FF;
+  fill: #DDE2FF !important;
+}
+
+.text {
+  margin-left: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #DDE2FF;
+}/*# sourceMappingURL=menuitem.css.map */

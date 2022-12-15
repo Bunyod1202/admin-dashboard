@@ -1,0 +1,30 @@
+.taskform {
+    margin-top: 20px;
+padding: 20px 32px;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid #DFE0EB;
+}
+
+.task-input {
+width: 336px;
+border: transparent;
+font-family: 'Muli';
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #C5C7CD;
+}
+
+.task-btn{
+    color: #9FA2B4;
+    font-size: large;
+    border: transparent;
+    background: #F0F1F7;
+    border-radius: 8px;
+}
+
+.tasks-list {
+margin: 0;
+padding: 0;
+}

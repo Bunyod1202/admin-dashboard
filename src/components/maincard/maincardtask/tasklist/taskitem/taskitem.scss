@@ -1,0 +1,41 @@
+.task-item {
+    display: flex;
+padding: 20px 32px;
+list-style: none;
+ &:not(:last-child) {
+border-bottom: 1px solid #DFE0EB;
+}
+}
+
+.done{
+margin-right: 16px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+
+.texttask{
+    margin: 0;
+flex-grow: 1;
+font-family: 'Muli';
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #252733;
+
+}
+
+.infotask{
+    padding: 5px 12px;
+    background: #FEC400;
+    border-radius: 8px;
+    font-family: 'Muli';
+font-size: 11px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+color: #FFFFFF;
+}

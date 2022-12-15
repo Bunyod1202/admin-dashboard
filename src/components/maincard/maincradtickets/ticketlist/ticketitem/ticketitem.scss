@@ -1,0 +1,28 @@
+.ticket-item {
+    padding: 20px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+     &:not(:last-child){
+        border-bottom: 1px solid #DFE0EB;
+    }
+}
+
+.ticket-text {
+    margin: 0;
+    font-family: 'Muli';
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+
+.ticket-num {
+    font-family: 'Muli';
+    font-size: 14px;
+    line-height: 20px;  
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}

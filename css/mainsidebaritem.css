@@ -1,0 +1,28 @@
+.sidebar-item {
+  padding: 32px;
+  text-align: center;
+}
+.sidebar-item:not(:last-child) {
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.sidebar-text {
+  margin: 0;
+  margin-bottom: 6px;
+  font-family: "Muli";
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #9FA2B4;
+}
+
+.sidebar-num {
+  font-family: "Muli";
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #252733;
+  font-weight: bold;
+}/*# sourceMappingURL=mainsidebaritem.css.map */
