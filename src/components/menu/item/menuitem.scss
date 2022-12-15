@@ -6,11 +6,11 @@ padding: 20px 32px;
 display: flex;
 align-items: center;
 border-left: 3px solid transparent;
-}
-.item-active {
+&:hover{
   background-color: #9fa2b4cc;  
   border-left: 3px solid #DDE2FF;
     fill: #DDE2FF !important;
+}
 }
 .text {
   margin-left: 24px;

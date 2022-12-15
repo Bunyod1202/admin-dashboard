@@ -7,15 +7,18 @@ export function Tasklists() {
     const tasks = [
     {
         text: "Finish ticket update",
-        info: "Urgent"
+            info: "Urgent",
+        color: "#FEC400"
     },
     {
         text: "Create new ticket example",
-        info: "New"
+        info: "New",
+        color: "#29CC97"
     },
     {
         text: "Update ticket report",
-        info: "Default"
+        info: "Default",
+        color: "#F0F1F7"
     },
 
     ]
@@ -30,7 +33,7 @@ export function Tasklists() {
             </form>
             <ul className='tasks-list'>
                 {
-                tasks.map(item => <Taskitem  text={item.text} info={item.info} /> )
+                tasks.map(item => <Taskitem  text={item.text} info={item.info} color={item.color} /> )
                 }
             </ul>
         </div>
