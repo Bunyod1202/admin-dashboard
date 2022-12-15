@@ -1,0 +1,19 @@
+.site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px;
+  margin-top: 30px;
+  padding: 32px 30px 30px 30px;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+  width: 95%;
+}
+
+.main-img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,68 @@
+.chart-header {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 32px 32px 30px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.today-trends {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: 'Muli';
+    font-size: 19px;
+    line-height: 24px;   
+    letter-spacing: 0.4px;  
+    color: #252733;    
+}
+
+.trends-date {
+    font-family: 'Muli';
+    font-size: 12px;
+    line-height: 16px;  
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.today {
+    display: inline-block;
+    margin-right: 56px;
+    font-family: 'Muli';
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+    position: relative;
+    // border-left: 2px solid #3751FF;
+
+    &::before{
+        position: absolute;
+        top: 6px;
+        right: 40px;
+        border-radius: 2px;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color:  #3751FF;
+    }
+}
+.yesterday{
+    display: inline-block;
+    font-family: 'Muli';
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+    position: relative;
+
+    &::before{
+        position: absolute;
+        top: 6px;
+        right: 57px;
+        border-radius: 2px;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color:  #DFE0EB;
+    }
+}
