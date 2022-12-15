@@ -1,0 +1,35 @@
+.card {
+  width: 258px;
+  height: 134px;
+  background-color: #FFFFFF;
+border: 1px solid #DFE0EB;
+border-radius: 8px;
+text-align: center;
+&:hover {
+  border: 1px solid #3751FF;
+  .card-text  ,
+  .card-number {
+    color: #3751FF;
+
+  }
+}
+}
+.card-text{
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 19px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #9FA2B4;
+font-weight: 700;
+}
+.card-number {
+  margin: 0;
+  font-size: 40px;
+line-height: 50px;
+text-align: center;
+letter-spacing: 1px;
+color: #252733;
+font-weight: 700;
+}
