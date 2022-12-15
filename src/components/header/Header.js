@@ -1,7 +1,9 @@
 import'./header.scss'
 import Photo from '../../assets/images/photo.png'
 import { Bell, Search } from '../../assets/icons/fullIcons';
+import { useState } from 'react';
 export const Header = () => {
+  const [search,setSearch] = useState(true)
   return (
     <header>
       <div className="header-inner">
@@ -9,8 +11,8 @@ export const Header = () => {
 
         <div className="header-right">
           <form>
-            <input type="search" className='search' />
-            <button className='btn-search'><Search/></button>
+            <input type="search" className={search === true ?'search':"search search-with"} />
+            <button className='btn-search' type='button' onClick={()=>setSearch(!search)} ><Search/></button>
           </form>
           <button className='btn-bell'><Bell/></button>
           <span className='line'></span>

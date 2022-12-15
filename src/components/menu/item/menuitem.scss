@@ -9,7 +9,23 @@ border-left: 3px solid transparent;
 &:hover{
   background-color: #9fa2b4cc;  
   border-left: 3px solid #DDE2FF;
-    fill: #DDE2FF !important;
+  svg path {
+    fill: #000 !important;
+  }
+}
+&:nth-child(6){
+  position: relative;
+  margin-bottom: 30px;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #dfe0eb4b;
+    bottom: -15px;  
+    left: 0;
+
+  }
 }
 }
 .text {
