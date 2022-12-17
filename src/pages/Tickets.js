@@ -9,7 +9,7 @@ import img7 from '../assets/images/avatar/7.png'
 import img8 from '../assets/images/avatar/8.png'
 
 export const Tickets = () => {
-  const tickets = [
+  const usertickets = [
     {
       id: 1,
       ticket_imag:{img5},
