@@ -1,9 +1,9 @@
+import { Route, Routes } from 'react-router-dom';
 import './assets/style/main.scss'
-import { CardList } from './components/card/cardlist/CardList';
 import { Header } from './components/header/Header';
-import { Main } from './components/main/Main';
-import { Maincards } from './components/maincard/Maincards';
 import {Menu} from './components/menu/Menu';
+import { Tickets } from './pages/Tickets';
+import { Home } from './pages/Home';
 
 function App() {
   return (
@@ -11,13 +11,10 @@ function App() {
       <Menu />
       <div className='hiro'>
         <Header />
-        <CardList/>
-        <main>
-          <Main />
-        </main>
-        <div>
-        <Maincards />
-        </div>
+        <Routes>
+          <Route path='/Overview' element={<Home/>}/>
+          <Route path='/Tickets' element={<Tickets/>}/>
+        </Routes>
       </div>
     </div>
   );

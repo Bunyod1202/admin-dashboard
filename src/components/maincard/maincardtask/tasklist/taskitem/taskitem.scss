@@ -6,12 +6,43 @@ list-style: none;
 border-bottom: 1px solid #DFE0EB;
 }
 }
-
+.none {
+    &:checked + .New {
+        background-image: url("../../../../../assets/images/check.png");
+        background-size: cover;
+    }
+}
+.none {
+    &:checked + .Default {
+        background-image: url("../../../../../assets/images/check.png");
+        background-size: cover;
+    }
+}
+.none {
+    &:checked + .Urgent {
+        background-image: url("../../../../../assets/images/check.png");
+        background-size: cover;
+    }
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .done{
+    display: block;
 margin-right: 16px;
 width: 20px;
 height: 20px;
 border-radius: 50%;
+border: 1px solid #000;
 }
 
 .texttask{
