@@ -33,7 +33,7 @@ export function Tasklists() {
             </form>
             <ul className='tasks-list'>
                 {
-                tasks.map(item => <Taskitem  text={item.text} info={item.info} color={item.color} /> )
+                tasks.map(item => <Taskitem key={item.text} text={item.text} info={item.info} color={item.color} /> )
                 }
             </ul>
         </div>

@@ -55,7 +55,7 @@ export const List = () => {
   }
   return (
     <ul className='menu-list' onClick={itemActive}>
-     { menuList.map(item => <Item id={item.id} menuList={menuList} icon={item.icon} title={item.title} /> )}
+     { menuList.map(item => <Item key={item.id} id={item.id} menuList={menuList} icon={item.icon} title={item.title} /> )}
     </ul>
   );
 };

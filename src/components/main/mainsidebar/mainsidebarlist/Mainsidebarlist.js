@@ -31,7 +31,7 @@ export  function Mainsidebarlist() {
     return (
         <ul className='sidebar-list'>
             {
-            sidebarList.map(item => <Mainsidebaritem  text={item.text} num={item.number} />)
+            sidebarList.map(item => <Mainsidebaritem key={item.text} text={item.text} num={item.number} />)
             }
         </ul>
     )

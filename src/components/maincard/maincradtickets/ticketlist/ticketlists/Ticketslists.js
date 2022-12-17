@@ -30,7 +30,7 @@ export  function Ticketslists() {
     return (
         <ul className='ticket-list'>
             {
-            ticketlist.map(item => <Ticketitem  text={item.text} num={item.number} />)
+            ticketlist.map(item => <Ticketitem key={item.text}  text={item.text} num={item.number} />)
             }
         </ul>
     )

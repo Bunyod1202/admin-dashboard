@@ -4,7 +4,7 @@ import "./taskitem.scss"
 export  function Taskitem({text,info,color}) {
   return (
     <li className='task-item'>
-      <label for="checkboxid">
+      <label htmlFor="checkboxid">
       <input className='none visually-hidden ' id="checkboxid" type="checkbox" />
       <span className={`done ${info}`} ></span>
      </label>

@@ -22,7 +22,7 @@ export const CardList = () => {
   ]
   return (
     <ul className="card-list">
-      {cardlists.map(cardlist => <CardItem  text={cardlist.text} num={cardlist.num} />)}
+      {cardlists.map(cardlist => <CardItem key={cardlist.num}  text={cardlist.text} num={cardlist.num} />)}
     </ul>
   );
 };
