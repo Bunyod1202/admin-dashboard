@@ -8,16 +8,19 @@ export function Tasklists() {
     {
         text: "Finish ticket update",
             info: "Urgent",
+            chack: "urgent",
         color: "#FEC400"
     },
     {
         text: "Create new ticket example",
         info: "New",
+        chack: "new",
         color: "#29CC97"
     },
     {
         text: "Update ticket report",
         info: "Default",
+        chack: "default",
         color: "#F0F1F7"
     },
 
@@ -33,7 +36,7 @@ export function Tasklists() {
             </form>
             <ul className='tasks-list'>
                 {
-                tasks.map(item => <Taskitem key={item.text} text={item.text} info={item.info} color={item.color} /> )
+                tasks.map((item,index) => <Taskitem key={item.text} index={index} chack={item.chack} text={item.text} info={item.info} color={item.color} /> )
                 }
             </ul>
         </div>

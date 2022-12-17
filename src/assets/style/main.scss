@@ -15,13 +15,41 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F7F8FC;
+  overflow: hidden;
 }
 
 .App{
   display: flex;
-  width: 1519px;
+  max-width: 1536px;
   margin: 0 auto;
 }
 .hiro{
   width: 83%;
+}
+.error-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+.bace {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 200px;
+  top: 85%; 
+  border: none;
+  background-color: #2B447D;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.intro{
+  overflow: auto;
+  height:100vh
 }
