@@ -1,0 +1,183 @@
+.box-ticket {
+margin: 0 30px;
+margin-top: 44px;
+margin-bottom: 100px;
+background: #FFFFFF;
+border: 1px solid #DFE0EB;
+border-radius: 8px;
+}
+
+.ticket-top{
+display: flex;
+padding-left: 32px;
+border-bottom:1px solid #DFE0EB;
+}
+
+.first{
+width: 350px;
+margin-right: 150px;
+line-height: 18px;  
+letter-spacing: 0.2px;
+color: #9FA2B4;
+}
+
+.second{
+width: 200px;
+margin-right: 40px;
+line-height: 18px;  
+letter-spacing: 0.2px;
+color: #9FA2B4;
+}
+
+.third{
+    width: 150px;
+    margin-right: 40px;
+    line-height: 18px;  
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.four{
+    line-height: 18px;  
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.style{
+    line-height: 20px;
+  letter-spacing: 0.2px;
+    color: #252733;
+}
+
+.styleop {
+    line-height: 16px;   
+    letter-spacing: 0.1px;
+    color: #C5C7CD;    
+}
+
+.allticket{
+margin: 0;
+font-size: 19px;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #252733;
+}
+
+.sorting,
+.filtering{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #4B506D;
+}
+
+.tickets-header{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding: 32px 32px 48px 32px;
+}
+
+.filterSort{
+display: flex;
+}
+
+.ticket-list{
+margin: 0;
+padding: 0;
+
+}
+
+.ticketitem{
+display: flex;
+margin-right: auto;
+align-items: center;
+padding: 24px 31px;
+border-bottom:1px solid #DFE0EB;
+}
+
+.ticket-detail{
+    width: 350px;
+    margin-right: 150px;
+display: flex;
+align-items: center;
+// justify-content: space-between;
+}
+
+.ticket-name{
+flex-grow: 1;
+}
+
+
+.ticket-img{
+margin-right: 24px;
+}
+.ticket-content{
+display: flex;
+
+// justify-content: space-between;
+}
+
+.customer-names{
+    width: 200px;
+margin-right: 40px;
+}
+
+.customer-dates{
+    width: 150px;
+margin-right: 40px;
+}
+
+.info-ticket{
+    align-self: center;
+padding: 5px 12px;
+margin-right: 40px;
+border-radius: 100px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.menu-icon{
+align-self: center;
+}
+
+.tickets-footer{
+padding: 27px 0;
+padding-right: 32px;
+display: flex;
+justify-content: flex-end;
+}
+
+
+.select-arrow{
+display: flex;
+margin: 0;
+align-items: center;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.3px;
+color: #9FA2B4;
+}
+
+.countpage{
+
+margin: 0;
+margin-left: 8px;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+letter-spacing: 0.3px;
+color: #4B506D;
+}
+.allpages{
+    margin-left: 48px;
+margin-right: 24px;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+letter-spacing: 0.3px;
+color: #9FA2B4;
+}
